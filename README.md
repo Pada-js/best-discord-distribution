@@ -1,21 +1,17 @@
-# Best Discord — downloads
+# Best Discord
 
-This repository contains the signed catalogue and verified downloads. The development repository remains private.
+## Best Discord 1.1.0
 
-## Windows
+[Windows x64 installer](https://github.com/Pada-js/best-discord-distribution/releases/download/v1.1.0/best-discord-1.1.0-windows-x64.zip) · [API2 SDK 1.1.0-dev.1](https://github.com/Pada-js/best-discord-distribution/releases/download/v1.1.0/best-discord-sdk-1.1.0-dev.1.zip)
 
-Download [Best Discord 1.0.3](https://github.com/Pada-js/best-discord-distribution/releases/download/v1.0.3/best-discord-1.0.3-windows-x64.zip), extract the whole archive, close Discord, then run `installer/Setup.exe`. Normal Discord startup is preserved.
+## YTMRP — YouTube Music 0.6.0
 
-Installer ZIP SHA256: `b2effde0b5673ff475b673f3dde4dd56086b107a4b7532218789a990a832e08f`.
+Contrôle YouTube Music dans Discord, avec activité musicale, PiP et cinéma local.
 
-The installer bundles zero mods and zero account sessions. Installed mods and their private data are kept separate from engine releases. The initial approved catalogue is empty.
+Control YouTube Music in Discord, with music activity, PiP and a local cinema view.
 
-## Developers
+[Mod release / Fiche du mod](https://github.com/Pada-js/best-discord-distribution/releases/tag/ytmrp-v0.6.0)
 
-[Download the SDK and examples](https://github.com/Pada-js/best-discord-distribution/releases/download/v1.0.3/best-discord-sdk-dev2.zip). Examples are not installed automatically. Third-party mods require review before addition to the approved catalogue.
+YTMRP uses the isolated API2 runtime and requires Best Discord 1.1.0. Installation leaves the mod disabled; permissions require explicit approval. Signed catalogues and engine metadata use separate Ed25519 authorities. These metadata signatures are distinct from a Windows Authenticode certificate. Compatibility is bounded; future Discord changes may require an operator update.
 
-## Update trust
-
-Catalogue, index, engine and compatibility-profile signatures use separate pinned Ed25519 authorities. Packages do not grant permissions or activate mods. Metadata expires and must be renewed by the operator. Unknown Discord layouts or binaries are refused until validation. Future Discord compatibility is not guaranteed.
-
-The installer does not have a Windows Authenticode certificate. Ed25519 update verification is separate from Windows publisher certification.
+This repository distributes public artifacts and signed metadata. The development repository remains private.
