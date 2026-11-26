@@ -12,7 +12,7 @@ Si une ancienne installation ne charge plus le menu Mods après une mise à jour
 
 ## YTMRP — YouTube Music 0.6.0
 
-Le paquet Store reste inchangé. Dans Mods → Store, installe YTMRP, accorde explicitement ses permissions, puis active-le. [Fiche et paquet YTMRP](https://github.com/Pada-js/best-discord-distribution/releases/tag/ytmrp-v0.6.0). Le partage Go Live de YTM et UnDeleted Messages ne font pas partie de cette version.
+Le paquet Store reste inchangé. Dans Mods → Store, installe YTMRP, accorde explicitement ses permissions, puis active-le. [Fiche et paquet YTMRP](https://github.com/Pada-js/best-discord-distribution/releases/tag/ytmrp-v0.6.0).
 
 ## English
 
